@@ -319,7 +319,7 @@ public:
 	}
 
 public:
-	//эта функция нужна только для тестирования getDebts, getOverdueBooks
+	//only for testing getDebts, getOverdueBooks
 	bool changeDates(int days) {
 		if (records->size() == 0) {
 			return 0;
@@ -341,4 +341,5 @@ public:
 	}
 
 };
+
 
